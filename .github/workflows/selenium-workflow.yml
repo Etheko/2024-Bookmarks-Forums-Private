@@ -82,7 +82,7 @@ jobs:
 
       - name: Run Angular application
         run: |
-          nohup ng serve &
+          nohup ng serve --host=127.0.0.1 --port=4200 &
           sleep 30
         working-directory: frontend
 

@@ -23,7 +23,7 @@ public class TestConfig { // Singleton pattern for testing config params.
 
     // Private constructor to prevent instantiation
     private TestConfig() {
-        this.localhost = "http://localhost";
+        this.localhost = "http://127.0.0.1";
         this.port = 4200; // Default port
         this.waitTime = 0;
 
